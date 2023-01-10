@@ -1,0 +1,35 @@
+main { 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#title {
+    height: 100px;
+    background-color: blue;
+    text-align: center;
+    font-size: 50px;
+}
+
+#team-manager {
+    height: 150px;
+    border: 5px solid salmon;
+    
+}
+
+#team-engineer {
+    height: 150px;
+    border: 5px solid teal;
+}
+
+#team-intern {
+    height: 150px;
+    border: 5px solid green;
+}
+
+#team-manager, #team-engineer, #team-intern {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 5px;
+}

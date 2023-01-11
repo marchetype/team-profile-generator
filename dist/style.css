@@ -53,6 +53,7 @@ a {
     color: white;
     height: 50%;
     background-color: var(--navy);
+    font-size: small;
 }
 
 .card-github, .card-office, .card-school {

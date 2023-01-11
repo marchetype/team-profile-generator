@@ -17,6 +17,7 @@
 
         Employee
       class. By using OOP (Object Oriented Programming), this task becomes much more efficient than it would be through the use of conventional JavaScript.
+  - I plan on adding more in terms of the actual styling of the generated webpage. As of now, the look is very rough but legible.
   ## Installation
   - To install, the user must clone the repository from GitHub and then initialize npm, along with installing both jest and inquirer (v8.2.4). After this, the program can be run by entering node index.js into the CLI once you have navigated to the correct directory.
   ## Usage

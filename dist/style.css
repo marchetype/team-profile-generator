@@ -1,35 +1,61 @@
+:root {
+    --black: black;
+    --white: white;
+    --navy: rgb(0, 58, 128);
+    --lightTeal: rgba(79, 170, 139, 0.652);
+    --darkTeal: rgba(64, 138, 114, 0.652);
+    --lightBlue: rgb(186, 246, 255);
+}
+
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 main { 
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+a {
+    color: var(--lightBlue);
 }
 
 #title {
     height: 100px;
-    background-color: blue;
+    background-color: var(--lightTeal);
     text-align: center;
     font-size: 50px;
 }
 
-#team-manager {
-    height: 150px;
-    border: 5px solid salmon;
+#card {
+    border: 5px solid var(--black);
+    height: 200px;
+    width: 200px;
+}
+
+#card div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-name {
+    background-color: var(--lightTeal);
+    height: 25%;
     
 }
-
-#team-engineer {
-    height: 150px;
-    border: 5px solid teal;
+.card-id {
+    font-size: 10px;
+    background-color: var(--darkTeal);
+}
+.card-email {
+    color: white;
+    height: 50%;
+    background-color: var(--navy);
 }
 
-#team-intern {
-    height: 150px;
-    border: 5px solid green;
-}
-
-#team-manager, #team-engineer, #team-intern {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin: 5px;
+.card-github, .card-office, .card-school {
+    background-color: var(--lightTeal);
+    height: 38px;
 }
